@@ -1,7 +1,142 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Pretendard';
     box-sizing: border-box;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #191919;
+    list-style: none;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcfcfc;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: #191919;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+
+nav {
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    width: 150px;
+    height: 40px;
+    background-color: #fcfcfc;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+nav>ul a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav>ul>li:hover {
+    height: 200px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+nav>ul>li:hover>a {
+    color: #fcfcfc;
+    background-color: #191919;
+}
+
+nav>ul>li>ul>li>a:hover {
+    color: #fcfcfc;
+    background-color: #191919;
+}
+
+.main {
+    width: 100vw;
+    height: calc(100vh - 200px);
+    background-color: blueviolet;
 }
 
 .groomi_moving_part {
@@ -83,4 +218,12 @@
     width: 20px;
     height: 180px;
     background-color: aqua;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #191919;
 }
