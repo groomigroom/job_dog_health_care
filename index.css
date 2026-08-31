@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.groomi_moving_part {
+    width: 335px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+}
+
+.body_groom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.leg_1 {
+    position: absolute;
+    top: 180px;
+    left: 55px;
+    transform-origin: 50% 5px;
+    animation: ley_rotate1 2s ease 0s infinite;
+}
+
+.leg_2 {
+    position: absolute;
+    top: 180px;
+    left: 65px;
+    transform-origin: 50% 5px;
+    animation: ley_rotate2 2s ease 0s infinite;
+}
+
+.leg_3 {
+    position: absolute;
+    top: 180px;
+    left: 205px;
+    transform-origin: 50% 5px;
+    animation: ley_rotate1 2s ease 0s infinite;
+}
+
+.leg_4 {
+    position: absolute;
+    top: 180px;
+    left: 215px;
+    transform-origin: 50% 5px;
+    animation: ley_rotate2 2s ease 0s infinite;
+}
+
+@keyframes ley_rotate1 {
+    0% {
+        transform: rotateZ(30deg);
+    }
+
+    50% {
+        transform: rotateZ(-30deg);
+    }
+
+    100% {
+        transform: rotateZ(30deg);
+    }
+}
+
+@keyframes ley_rotate2 {
+    0% {
+        transform: rotateZ(-30deg);
+    }
+
+    50% {
+        transform: rotateZ(30deg);
+    }
+
+    100% {
+        transform: rotateZ(-30deg);
+    }
+}
+
+.groomi_moving_part>div {
+    position: absolute;
+    width: 20px;
+    height: 180px;
+    background-color: aqua;
+}
