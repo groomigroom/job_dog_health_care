@@ -70,6 +70,7 @@
     text-decoration: none;
     color: #151515;
     list-style: none;
+    /* ##### overflow-x: ;인가 그거 */
 }
 
 .full {
@@ -97,29 +98,42 @@ header {
 }
 
 nav {
-    width: 150px;
-    height: 275px;
-    background-color: aqua;
-    margin: 0 auto;
+    width: 175px;
+    height: 325px;
     position: relative;
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+nav.on {
+    width: 100vw;
 }
 
 .header_wrap {
-    width: calc(100vw - 175px);
-    height: 275px;
+    width: 0px;
+    height: 325px;
     position: absolute;
     top: 0px;
-    left: 150px;
-    background-color: #b41111;
+    left: 175px;
+    background-color: #fcfcfc;
+    border-top: 5px solid #151515;
+    border-right: 5px solid #151515;
+    border-bottom: 5px solid #151515;
     z-index: 2;
+    transition: all 0.6s ease 0s;
+}
+
+.header_wrap.on {
+    width: calc(100vw - 175px);
 }
 
 nav>ul {
     width: 150px;
-    height: 275px;
-    position: relative;
+    height: 325px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
     z-index: 999;
-    /* overflow: hidden; */
 }
 
 nav>ul>li {
@@ -132,19 +146,19 @@ nav>ul>li {
 }
 
 nav>ul>li:nth-child(1) {
-    top: 0px;
+    top: 25px;
 }
 
 nav>ul>li:nth-child(2) {
-    top: 75px;
+    top: 100px;
 }
 
 nav>ul>li:nth-child(3) {
-    top: 150px;
+    top: 175px;
 }
 
 nav>ul>li:nth-child(4) {
-    bottom: 0px;
+    bottom: 25px;
 }
 
 nav>ul a {
@@ -157,6 +171,11 @@ nav>ul>li>a {
     height: 40px;
     line-height: 40px;
     text-align: center;
+}
+
+nav>ul>li:hover>a {
+    color: #fcfcfc;
+    background-color: #151515;
 }
 
 nav>ul>li>ul {
@@ -185,6 +204,11 @@ nav>ul>li>ul>li>a {
     position: absolute;
     top: -5px;
     left: 20px;
+}
+
+nav>ul>li>ul>li>a:hover {
+    color: #fcfcfc;
+    background-color: #151515;
 }
 
 /* 메인에 구름이와 새싹이 움직임 */
