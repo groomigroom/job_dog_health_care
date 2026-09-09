@@ -12,3 +12,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.greeting_pp_part {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.greeting_pp_part>p {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 150%;
+    text-align: center;
+}
