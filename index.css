@@ -71,6 +71,11 @@
     color: #151515;
     list-style: none;
     /* ##### overflow-x: ;인가 그거 */
+
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .full {
@@ -211,12 +216,23 @@ nav>ul>li>ul>li>a:hover {
     background-color: #151515;
 }
 
+.header_no_wrap {
+    width: calc(100vw - 200px);
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+}
+
 /* 메인에 구름이와 새싹이 움직임 */
 
 .main {
     width: calc(100vw - 200px);
-    height: 200px;
+    height: 400px;
     background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
 }
 
 .groomi_moving_part {
@@ -306,4 +322,6 @@ footer {
     border-top-right-radius: 25px;
     background-color: #191919;
     position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
