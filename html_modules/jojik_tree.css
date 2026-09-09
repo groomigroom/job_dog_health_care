@@ -1,0 +1,11 @@
+.jojik_real_jojik {
+    width: calc(100vw - 200px);
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.jojik_real_part {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
