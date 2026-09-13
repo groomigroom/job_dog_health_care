@@ -3,14 +3,14 @@
     height: 400px;
 }
 
-.character_introduce_real_characters>section {
+.character_introduce_real_characters_csection {
     width: 700px;
     height: 400px;
     display: flex;
     margin: 0 auto;
 }
 
-.character_introduce_real_characters>section>article {
+.character_introduce_real_characters_csection>article {
     width: 350px;
     height: 350px;
     background-color: bisque;
