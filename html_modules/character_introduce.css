@@ -1,1 +1,7 @@
-character_introduce.css
+.character_introduce_real_characters {}
+
+.character_introduce_real_characters>article {
+    width: 350px;
+    height: 350px;
+    background-color: bisque;
+}
