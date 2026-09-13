@@ -1,10 +1,10 @@
-.character_introduce_real_characters {
+.character_introduce_real_characters>section {
     width: 700px;
     height: 400px;
     display: flex;
 }
 
-.character_introduce_real_characters>article {
+.character_introduce_real_characters>section>article {
     width: 350px;
     height: 350px;
     background-color: bisque;
