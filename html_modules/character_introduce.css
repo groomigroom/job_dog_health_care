@@ -1,7 +1,13 @@
+.character_introduce_real_characters {
+    width: calc(100vw - 200px);
+    height: 400px;
+}
+
 .character_introduce_real_characters>section {
     width: 700px;
     height: 400px;
     display: flex;
+    margin: 0 auto;
 }
 
 .character_introduce_real_characters>section>article {
