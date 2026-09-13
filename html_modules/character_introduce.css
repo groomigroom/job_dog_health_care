@@ -1,4 +1,8 @@
-.character_introduce_real_characters {}
+.character_introduce_real_characters {
+    width: 700px;
+    height: 350px;
+    display: flex;
+}
 
 .character_introduce_real_characters>article {
     width: 350px;
