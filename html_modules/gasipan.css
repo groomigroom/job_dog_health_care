@@ -2,25 +2,23 @@
     width: 100vw;
     /* height: ; */
     position: relative;
-    background-color: blue;
 }
 
 .gasipan_real_table>table {
     width: 600px;
-    background-color: aquamarine;
+    border-collapse: collapse;
 }
 
 .gasipan_real_table>table td {
+    border: 2px solid #151515;
     height: 30px;
 }
 
 .gasipan_real_table>table tr>td:nth-child(1),
 .gasipan_real_table>table tr>td:nth-child(3) {
     width: 100px;
-    background-color: brown;
 }
 
 .gasipan_real_table>table tr>td:nth-child(2) {
     width: 400px;
-    background-color: brown;
 }
