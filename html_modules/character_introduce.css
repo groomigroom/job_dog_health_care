@@ -26,3 +26,28 @@
     display: flex;
     margin: 0 auto;
 }
+
+.character_introduce_real_characters_psection>article {
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+
+.character_introduce_real_characters_psection>article>h3 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 위에꺼 23px */
+
+.character_introduce_real_characters_psection>article>p {
+    width: 350px;
+    text-align: center;
+    line-height: 140%;
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+}
