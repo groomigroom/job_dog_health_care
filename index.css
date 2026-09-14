@@ -371,13 +371,13 @@ footer>p {
 
 .h2_section_part {
     width: calc(100vw - 200px);
-    height: 79px;
+    height: 129px;
     position: relative;
 }
 
 .h2_section_part>h2 {
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
