@@ -1,5 +1,5 @@
 .gasipan_real_table {
-    width: 100vw;
+    width: calc(100vw - 200px);
     /* height: ; */
     position: relative;
 }
@@ -7,6 +7,7 @@
 .gasipan_real_table>table {
     width: 600px;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 .gasipan_real_table>table td {
