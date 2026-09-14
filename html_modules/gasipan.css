@@ -1,1 +1,6 @@
-gasipan.css
+.gasipan_real_table {
+    width: 100vw;
+    /* height: ; */
+    position: relative;
+    background-color: blue;
+}
