@@ -70,8 +70,6 @@
     text-decoration: none;
     color: #151515;
     list-style: none;
-    /* ##### overflow-x: ;인가 그거 */
-
 }
 
 body {
@@ -370,3 +368,18 @@ footer>p {
     transform: translateY(-50%);
     font-weight: 700;
 }
+
+.h2_section_part {
+    width: calc(100vw - 200px);
+    height: 79px;
+    position: relative;
+}
+
+.h2_section_part>h2 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 29px+50px */
