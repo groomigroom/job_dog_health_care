@@ -12,6 +12,7 @@
 .gasipan_real_table>table td {
     border: 2px solid #151515;
     height: 30px;
+    position: relative;
 }
 
 .gasipan_real_table>table tr>td:nth-child(1),
@@ -25,4 +26,11 @@
 
 .gasipan_real_table>table>thead p {
     font-weight: 700;
+}
+
+.gasipan_real_table>table p {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
