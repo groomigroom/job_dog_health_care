@@ -8,6 +8,9 @@
     width: 100px;
     height: 100px;
     background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .jojik_real_train {
