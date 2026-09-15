@@ -9,3 +9,9 @@
     height: 100px;
     background-color: burlywood;
 }
+
+.jojik_real_train {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
