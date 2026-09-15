@@ -1,6 +1,13 @@
 .jojik_real_jojik {
     width: calc(100vw - 200px);
-    height: 400px;
+    height: 150px;
+}
+
+.jojik_real_train {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .jojik_real_part {
@@ -11,10 +18,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-.jojik_real_train {
-    width: 550px;
-    display: flex;
-    justify-content: space-between;
-}
