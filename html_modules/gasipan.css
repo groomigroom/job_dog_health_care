@@ -10,7 +10,19 @@
     margin: 0 auto;
 }
 
-.gasipan_real_table>table td {
+.gasipan_real_table>table>thead td {
+    border: 2px solid #fcfcfc;
+    height: 30px;
+    background-color: #151515;
+    
+    position: relative;
+}
+
+.gasipan_real_table>table>thead td>p {
+    color: #fcfcfc;
+}
+
+.gasipan_real_table>table>tbody td {
     border: 2px solid #151515;
     height: 30px;
     position: relative;
