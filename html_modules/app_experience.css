@@ -12,6 +12,14 @@
     border-radius: 50px;
 }
 
+.app_experience_real_module_train {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 .app_experience_real_modulesq {
     width: 100px;
     height: 100px;
