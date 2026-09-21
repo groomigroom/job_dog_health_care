@@ -60,7 +60,7 @@
             <!--이미지들-->
             <section>
                 <img src="../img/character_introduce_saessaki.png" alt="새싹이-real">
-                <img src="../img/character_introduce_groomi.png" alt="구름이-real">
+                <img src="../img/character_introduce_groomi.png" alt="구름이-real" class="groomi_real_img">
                 <img src="../img/character_introduce_groomi_event_error22.png" alt="구름이-error">
                 <img src="../img/character_introduce_saessaki_event_error22.png" alt="새싹이-error">
             </section>
@@ -70,6 +70,13 @@
         </section>
     </div>
     <script src="../script.js"></script>
+    <script>
+        const groomi_real_img = document.querySelector(".groomi_real_img");
+
+        groomi_real_img.addEventListener("click", () => {
+            console.log("당첨");
+        });
+    </script>
 </body>
 
 </html>
