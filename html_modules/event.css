@@ -3,3 +3,7 @@
     height: 200px;
     background-color: #eb2222;
 }
+
+.event_img_section>img {
+    width: 150px;
+}
