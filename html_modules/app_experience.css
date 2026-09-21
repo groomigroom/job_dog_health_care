@@ -29,14 +29,11 @@
 .app_experience_real_module_train4_4 {
     width: 225px;
     height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .app_experience_real_module_train {
     width: 225px;
-    height: 100px;
+    height: 125px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
