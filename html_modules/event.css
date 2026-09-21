@@ -1,3 +1,9 @@
+.event_img_section_train {
+    width: 950px;
+    height: 200px;
+    display: flex;
+}
+
 .event_img_section {
     width: 200px;
     height: 200px;
