@@ -20,6 +20,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 25px;
+    transition: all 0.2s ease 0s;
+}
+
+.event_img_section:hover {
+    background-color: #151515;
 }
 
 .event_img_section>img {
