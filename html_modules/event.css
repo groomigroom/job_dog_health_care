@@ -30,3 +30,7 @@
 .event_img_section>img {
     width: 150px;
 }
+
+.event_popup {
+    display: none;
+}
