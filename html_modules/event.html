@@ -86,7 +86,7 @@
             </footer>
             <div class="event_popup">
                 <section class="h2_section_part">
-                    <h2>이벤트</h2>
+                    <h2>당첨입니다.</h2>
                 </section>
             </div>
         </section>
@@ -94,9 +94,11 @@
     <script src="../script.js"></script>
     <script>
         const event_groomi_real_img = document.querySelector(".event_groomi_real_img");
+        const event_popup = document.querySelector(".event_popup");
 
         event_groomi_real_img.addEventListener("click", () => {
             console.log("당첨");
+            event_popup.style.display = "block";
         });
     </script>
 </body>
