@@ -1,1 +1,5 @@
-event.css
+.event_img_section {
+    width: 200px;
+    height: 200px;
+    background-color: #eb2222;
+}
