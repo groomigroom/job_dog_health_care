@@ -13,6 +13,11 @@
     position: relative;
 }
 
+.app_experience_app_real_part_headersec {
+    width: 225px;
+    height: 75px;
+}
+
 .app_experience_app_real_part_header {
     width: 225px;
     height: 50px;
