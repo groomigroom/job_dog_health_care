@@ -13,6 +13,12 @@
     position: relative;
 }
 
+.app_experience_app_real_structure {
+    width: 225px;
+    height: 375px;
+    background-color: blue;
+}
+
 .app_experience_app_real_part_headersec {
     width: 225px;
     height: 75px;
