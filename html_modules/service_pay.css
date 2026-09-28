@@ -1,6 +1,11 @@
 /* .service_pay_intro_part {} */
 
-/* .service_pay_train{} */
+.service_pay_train {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .service_pay_module {
     width: 200px;
