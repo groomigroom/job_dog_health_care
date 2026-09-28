@@ -1,1 +1,9 @@
-service_pay.css
+/* .service_pay_intro_part {} */
+
+/* .service_pay_train{} */
+
+.service_pay_module {
+    width: 200px;
+    height: 600px;
+    background-color: aqua;
+}
