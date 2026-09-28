@@ -33,6 +33,7 @@
     height: 50px;
     border-radius: 25px;
     position: relative;
+    border-left: 5px solid #151515;
 }
 
 .app_experience_real_module_train4_4 {
