@@ -51,6 +51,6 @@
 .app_experience_real_modulesq {
     width: 100px;
     height: 100px;
-    background-color: #8b4d4d;
+    border: 5px solid #151515;
     border-radius: 25px;
 }
