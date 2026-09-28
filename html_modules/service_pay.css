@@ -32,4 +32,14 @@
     border-bottom: 5px solid #151515;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    position: relative;
+}
+
+.service_pay_module>article:nth-child(2)>p {
+    position: absolute;
+    width: 190px;
+    top: 25px;
+    left: 0px;
+    text-align: center;
+    line-height: 160%;
 }
