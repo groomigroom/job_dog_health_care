@@ -22,3 +22,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.service_pay_module>article:nth-child(2) {
+    width: 200px;
+    height: 250px;
+    border-top: 2.5px solid #151515;
+    border-left: 5px solid #151515;
+    border-right: 5px solid #151515;
+    border-bottom: 5px solid #151515;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
