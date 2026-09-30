@@ -1,1 +1,6 @@
-manjokdo_josa.css
+.manjokdo_josa_module {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #151515;
+    border-radius: 25px;
+}
