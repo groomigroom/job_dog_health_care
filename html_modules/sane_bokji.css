@@ -1,1 +1,24 @@
-sane_bokji.css
+.sane_bokji_real_table {
+    width: calc(100vw - 200px);
+    height: 382px;
+    position: relative;
+}
+
+.sane_bokji_real_table>table {
+    width: 600px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.sane_bokji_real_table>table>tbody td {
+    border: 2px solid #151515;
+    height: 30px;
+    position: relative;
+}
+
+.sane_bokji_real_table>table p {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
