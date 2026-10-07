@@ -27,3 +27,20 @@
     line-height: 150%;
     text-align: center;
 }
+
+.greeting_groomi_real_img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.greeting_groomi_real_img>img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 25px;
+    transform-origin: 50%, 50%;
+}
