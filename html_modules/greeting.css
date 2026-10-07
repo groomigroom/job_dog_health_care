@@ -41,6 +41,22 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    border: 5px solid #151515;
     border-radius: 25px;
-    transform-origin: 50%, 50%;
+    transform-origin: 50% 50%;
+    animation: greeting_groomi_real_img 2s ease 0s infinite;
+}
+
+@keyframes greeting_groomi_real_img {
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
 }
