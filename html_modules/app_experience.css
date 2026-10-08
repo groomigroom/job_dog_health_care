@@ -49,6 +49,7 @@
 }
 
 .app_experience_real_modulesq {
+    display: block;
     width: 100px;
     height: 100px;
     border: 5px solid #151515;
