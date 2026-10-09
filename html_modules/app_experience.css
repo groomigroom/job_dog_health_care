@@ -66,8 +66,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .app_experience_real_modulesq > h4 {
     text-align: center;
+}
+
+.app_experience_real_modulesq > img {
+    object-fit: cover;
 }
