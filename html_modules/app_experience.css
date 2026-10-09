@@ -67,3 +67,7 @@
     align-items: center;
     cursor: pointer;
 }
+
+.app_experience_real_modulesq > h4 {
+    text-align: center;
+}
